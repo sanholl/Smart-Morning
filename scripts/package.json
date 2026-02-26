@@ -1,0 +1,15 @@
+{
+  "name": "morning-briefing-scripts",
+  "version": "1.0.0",
+  "description": "Morning briefing automation scripts",
+  "type": "module",
+  "scripts": {
+    "token": "node get-kakao-token.js",
+    "send": "node send-kakao.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
